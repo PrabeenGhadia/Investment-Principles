@@ -1,0 +1,90 @@
+/****** TAG Selectors - lets you to have the same styling across all tags of the same type - Global Styling **********/
+
+body {
+  background-color: #EEEEEE;
+  color: black;
+  align-content: space-between;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a:hover {
+  background-color: #00adb5;
+}
+
+hr {
+  border-style: dotted none none;
+  height: 0;
+  width: 20%;
+  border-width: 5px;
+  border-color: #00adb5;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+table {
+  background-color: #EEEEEE;
+  color: black;
+}
+
+h2 {
+  margin-top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+form {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/**** CLASS Selectors -- Define a class within the tag and generate a different styling for items ****/
+
+.Header {
+  background-color: black;
+  color: #EEEEEE;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.Top {
+  background-color: black;
+  color: #00adb5;
+  height: 300px;
+  display: inline-block;
+  padding: 30px 30px 0 30px;
+}
+
+.Content {
+  margin: 0% 20% 0% 20%;
+  border-style: solid
+  border-left-width: medium;
+  border-color: #00adb5;
+  postion: relative;
+  left: 300px;
+}
+
+/*** ID Selectors -- a different styling for one specific tag/element as ID has to be unique***/
+
+#Margin{
+  background-color: #EEEEEE;
+  color: black;
+}
+
+#top-image{
+  background-color: black;
+  width: 30%;
+  position: relative;
+  left: 65%;
+  bottom: 330px;
+}
+
+#top-content{
+  width: 60%;
+}
